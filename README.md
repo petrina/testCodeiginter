@@ -2,6 +2,7 @@
 
 please, follow next steps:
 - pull project
+- filling .env file
 - create database
 - run migration (create user table and test user)
 
