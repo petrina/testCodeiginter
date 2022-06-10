@@ -1,0 +1,281 @@
+CRITICAL - 2022-06-09 15:55:33 --> Undefined array key "username"
+in APPPATH/Controllers/Auth.php on line 22.
+ 1 APPPATH/Controllers/Auth.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-06-09 15:56:07 --> Error connecting to the database: Access denied for user '****'@'localhost'
+CRITICAL - 2022-06-09 15:56:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/User.php(26): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/Auth.php(22): App\Models\User->findUser()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-06-09 15:58:19 --> Error connecting to the database: Access denied for user '****'@'localhost'
+CRITICAL - 2022-06-09 15:58:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/User.php(26): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/Auth.php(22): App\Models\User->findUser()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-06-09 15:59:34 --> Table 'codeigniter.users' doesn't exist
+CRITICAL - 2022-06-09 15:59:34 --> Table 'codeigniter.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Models/User.php(26): CodeIgniter\BaseModel->first()
+ 8 APPPATH/Controllers/Auth.php(22): App\Models\User->findUser()
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-06-09 15:59:56 --> Table 'codeigniter.users' doesn't exist
+CRITICAL - 2022-06-09 15:59:56 --> Table 'codeigniter.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Models/User.php(26): CodeIgniter\BaseModel->first()
+ 8 APPPATH/Controllers/Auth.php(22): App\Models\User->findUser()
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-06-09 16:00:17 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-06-09 16:00:17 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Models/User.php(26): CodeIgniter\BaseModel->first()
+ 8 APPPATH/Controllers/Auth.php(22): App\Models\User->findUser()
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:00:34 --> Undefined variable $error
+in APPPATH/Controllers/Auth.php on line 24.
+ 1 APPPATH/Controllers/Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:04:48 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH/Models/User.php on line 27.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Auth.php(21): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:05:06 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH/Models/User.php on line 27.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Auth.php(21): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:05:27 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH/Controllers/Auth.php on line 23.
+ 1 APPPATH/Controllers/Auth.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:06:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+in APPPATH/Models/User.php on line 27.
+ 1 APPPATH/Controllers/Auth.php(22): App\Models\User->findUser()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:15:45 --> Attempt to assign property "auth" on null
+in APPPATH/Controllers/Auth.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:18:22 --> Undefined property: App\Controllers\Auth::$session
+in APPPATH/Controllers/Auth.php on line 35.
+ 1 APPPATH/Controllers/Auth.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:19:43 --> Undefined property: App\Controllers\Auth::$session
+in APPPATH/Controllers/Auth.php on line 35.
+ 1 APPPATH/Controllers/Auth.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:20:08 --> Undefined property: App\Controllers\Auth::$session
+in APPPATH/Controllers/Auth.php on line 35.
+ 1 APPPATH/Controllers/Auth.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:21:10 --> Cannot call constructor
+in APPPATH/Controllers/Auth.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(860): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:21:42 --> Undefined property: App\Controllers\Auth::$load
+in APPPATH/Controllers/Auth.php on line 13.
+ 1 APPPATH/Controllers/Auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(860): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:22:30 --> Undefined property: App\Controllers\Auth::$session
+in APPPATH/Controllers/Auth.php on line 37.
+ 1 APPPATH/Controllers/Auth.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:27:24 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+in APPPATH/Controllers/Auth.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->checkUser()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:28:22 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Auth.php(27): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->register()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:29:08 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Auth.php(24): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->register()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 16:32:34 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Auth.php(24): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Auth->register()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:35:50 --> Class "Auth" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:36:05 --> Class "Auth" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:37:49 --> Class "Auth" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:38:32 --> Class "Auth/register" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:39:29 --> Class "login" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:41:53 --> Class "Home" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:41:54 --> Class "Home" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:41:55 --> Class "Home" not found
+in SYSTEMPATH/CodeIgniter.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 17:42:38 --> Class "Config\Auth" not found
+in APPPATH/Config/Routes.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(917): CodeIgniter\CodeIgniter->Config\{closure}()
+ 2 SYSTEMPATH/CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-06-09 18:00:57 --> syntax error, unexpected single-quoted string "){document.location.href="logi...", expecting "," or ";"
+in APPPATH/Config/Routes.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
